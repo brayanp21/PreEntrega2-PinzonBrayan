@@ -15,60 +15,98 @@ a {
 .barra_superior {
     background-color: #0066b2;
     padding: 10px;
-}
-
-.barra_superior div img {
-    width: 20px;
-    margin-right: 10px
-}
-
-#barra_redes {
-    margin-left: 40px;
-    display: inline;
-}
-
-#barra_busqueda {
-    display: inline;
-    margin-left: 500px;
-}
-
-#clima {
     color: #fff;
 }
 
-#buscar {
-    border-radius: 40px;
-    background: #d3eefb;
-    padding: 4px;
+.iconos_redes a{
+    margin-right: 0rem;
+    padding-left: .5rem;
+    color: #fff;
+    font-size: 1rem;
 }
 
-/*********** HEADER ************/
-header {
-    background-color: #fff;
-    padding: 10px 0;
+.btn_buscar{
+    --bs-btn-border-width: 0.1rem;
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4bb649;
+    --bs-btn-hover-border-color: #4bb649;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4bb649;
+    --bs-btn-active-border-color: #4bb649;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #4bb649;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #4bb649;
+    --bs-gradient: none;
+}
+
+.barra_clima {
     display: flex;
+    gap: 0.5rem;
     align-items: center;
 }
 
+.icon_barra {
+    width: 3rem;
+}
+
+/*********** HEADER ************/
 .logo {
     width: 150px;
     margin: 0 40px;
 }
 
-.lista-nav li {
-    display: inline;
-    margin-right: 40px;
-}
-
-.lista-nav li a {
+.nav-item a {
     color:#0066b2;
     font-size: 20px;
+}
+
+.activo{
+    background-color:#4bb649;
+    color:#fff;
+    border-radius: 0.5rem;
 }
 
 /*********** SLIDER ************/
 .slider img{
     width: 100%;
+}
 
+.carousel-item img{
+    height: 100vh;
+}
+
+@media (max-width: 1320px) {
+    .carousel-item img{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1140px) {
+    .carousel-item img{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 960px) {
+    .carousel-item img{
+        height: 70vh;
+    }
+}
+
+@media (max-width: 720px) {
+    .carousel-item img{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .carousel-item img{
+        height: 50vh;
+    }
 }
 
 /*********** SECTION ************/
