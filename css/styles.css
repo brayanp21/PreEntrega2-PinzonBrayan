@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Overpass', 'Monserratt',sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*********** BARRA SUPERIOR ************/
+.barra_superior {
+    background-color: #0066b2;
+    padding: 10px;
+}
+
+.barra_superior div img {
+    width: 20px;
+    margin-right: 10px
+}
+
+#barra_redes {
+    margin-left: 40px;
+    display: inline;
+}
+
+#barra_busqueda {
+    display: inline;
+    margin-left: 500px;
+}
+
+#clima {
+    color: #fff;
+}
+
+#buscar {
+    border-radius: 40px;
+    background: #d3eefb;
+    padding: 4px;
+}
+
+/*********** HEADER ************/
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 40px;
+}
+
+.lista-nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.lista-nav li a {
+    color:#0066b2;
+    font-size: 20px;
+}
+
+/*********** SLIDER ************/
+.slider img{
+    width: 100%;
+
+}
+
+/*********** SECTION ************/
+section {
+    padding: 20px 40px 20px 40px;
+}
+
+h1 {
+    font-family: 'overpass';
+    color: #0066b2;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'overpass';
+    color: #00adee;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*********** HOTELES AFILIADOS ************/
+.cotelco_magdalena {
+    background-color: #d3eefb;
+}
+
+/*********** HOTELES AFILIADOS ************/
+.logo_hoteles {
+    text-align: center;
+}
+
+.logo_afiliado {
+    display: inline;
+    margin: 40px;
+}
+
+.logo_afiliado a img {
+    width: 300px;
+}
+
+/*********** EVENTOS Y CAPACITACIONES ************/
+.eventos_capacitaciones {
+    text-align: center;
+}
+
+.eventos {
+    display: inline;
+}
+
+.eventos a img {
+    width: 49%;
+}
+
+/*********** DESTINO ************/
+.santa_marta {
+    text-align: center;    
+}
+
+.destino {
+    display: inline;
+    margin: 20px;
+}
+
+.destino a img {
+    width: 250px;
+}
+
+/*********** FOOTER ************/
+footer {
+    color: #fff;
+    background: #0066B2;
+    padding: 40px;
+}
+
+.secciones_footer {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_redes a img {
+    width: 20px;
+}
+
+#logo_footer a img {
+    width: 200px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info_footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*********** BARRA INFERIOR ************/
+.barra_inferior {
+    background-color: #00adee;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 4px;
+}
+
+/*********** BOTON ************/
+.boton {
+    text-align: center;
+    margin: 20px;
+}
+
+.boton a {
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #fff;
+    background: #0066B2;
+    box-shadow: 6px 6px 12px #c5c5c5;
+}
+
+/*********** BOTON WHATSAPP ************/
+.whatsapp {
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+/*********** FIN ************/
+
